@@ -23,7 +23,7 @@ export default class ToggleSwitch extends Component {
   render() {
 
     let theme = this.props.theme;
-    const isOn = theme === "light" ? true : false;
+    const isOn = theme === "light" ? false : true;
     const back = isOn ? blueTheme.body : myOwnTheme.body;
     const butt = isOn ? myOwnTheme.body : blueTheme.body;
 
