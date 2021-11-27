@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div>
         <Header theme={this.props.theme} onToggle={this.props.onToggle} />
-        <Greeting theme={this.props.theme} />
+        <Greeting theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );

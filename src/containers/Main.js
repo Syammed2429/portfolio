@@ -19,17 +19,17 @@ export default class Main extends Component {
             <Route
               exact
               path="/"
-              render={(props) => <Home {...props} theme={this.props.theme} />}
+              render={(props) => <Home {...props} theme={this.props.theme} onToggle={this.props.onToggle} />}
             />
             <Route
               path="/home"
-              render={(props) => <Home {...props} theme={this.props.theme} />}
+              render={(props) => <Home {...props} theme={this.props.theme} onToggle={this.props.onToggle} />}
             />
 
             <Route
               path="*"
               render={(props) => (
-                <Error404 {...props} theme={this.props.theme} />
+                <Error404 {...props} theme={this.props.theme} onToggle={this.props.onToggle} />
               )}
             />
 
@@ -40,16 +40,16 @@ export default class Main extends Component {
 
 
         <Element id="about" name="about">
-          <Skills theme={this.props.theme} />
+          <Skills theme={this.props.theme} onToggle={this.props.onToggle} />
         </Element>
         <Element id="projects" name="projects">
-          <Projects theme={this.props.theme} />
+          <Projects theme={this.props.theme} onToggle={this.props.onToggle} />
 
 
         </Element>
 
         <Element id="contact" name="contact">
-          <Contact theme={this.props.theme} />
+          <Contact theme={this.props.theme} onToggle={this.props.onToggle} />
 
 
         </Element>

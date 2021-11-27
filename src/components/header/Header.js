@@ -28,7 +28,7 @@ class Header extends Component {
 
     return (
       <Fade top duration={1000} distance="20px">
-        <ToggleSwitch theme={this.props.theme} onToggle={this.props.onToggle} />
+        {/* <ToggleSwitch theme={this.props.theme} onToggle={this.props.onToggle} /> */}
         <SeoHeader />
         <div>
           <header className="header">
@@ -113,6 +113,10 @@ class Header extends Component {
               </li>
 
             </ul>
+            <ToggleSwitch
+              theme={this.props.theme}
+              onToggle={this.props.onToggle}
+            />
           </header>
         </div>
       </Fade>

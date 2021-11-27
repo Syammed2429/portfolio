@@ -21,18 +21,11 @@ export const MoonSvg = styled.svg`
 
 export default class ToggleSwitch extends Component {
   render() {
-    const handleChange = () => {
-      console.log("Clicked");
-      console.log('theme:', theme);
-      return theme === myOwnTheme ? theme = blueTheme : theme = myOwnTheme
-      console.log('theme:', theme)
 
-      return theme
-    }
     let theme = this.props.theme;
-    const isOn = theme === myOwnTheme ? true : false;
-    const back = theme.text;
-    const butt = theme.body;
+    const isOn = theme === "light" ? true : false;
+    const back = isOn ? blueTheme.body : myOwnTheme.body;
+    const butt = isOn ? myOwnTheme.body : blueTheme.body;
 
     return (
       <ToggleDiv>
@@ -46,9 +39,7 @@ export default class ToggleSwitch extends Component {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          onClick={() => {
-            handleChange()
-          }}
+
         >
           <circle cx="12" cy="12" r="5" />
           <line x1="12" y1="1" x2="12" y2="3" />
@@ -63,29 +54,20 @@ export default class ToggleSwitch extends Component {
         <input
           className="react-switch-checkbox"
           checked={isOn}
-          onChange={this.props.blueTheme}
+          onChange={this.props.oonToggle}
           id={`react-switch-new`}
           type="checkbox"
-          onClick={() => {
-            handleChange()
-          }}
+
         />
         <label
           style={{ background: back }}
           className="react-switch-label"
           htmlFor={`react-switch-new`}
-        // onClick={() => {
-        //   handleChange()
-        // }}
-
         >
 
           <span
             style={{ background: butt }}
             className={`react-switch-button`}
-          // onClick={() => {
-          //   handleChange()
-          // }}
 
           />
           {console.log("Hello form toggle")}
@@ -100,9 +82,6 @@ export default class ToggleSwitch extends Component {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-        // onClick={() => {
-        //   handleChange()
-        // }}
 
 
         >
