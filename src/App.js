@@ -7,7 +7,7 @@ import { GlobalStyles } from "./global";
 
 function App() {
 
-  const [theme, setTheme] = React.useState('dark');
+  const [theme, setTheme] = React.useState('light');
 
   const toggleTheme = () => {
     if (theme === 'light') {
@@ -18,7 +18,7 @@ function App() {
     }
   }
   return (
-    <ThemeProvider theme={theme === "dark" ? myOwnTheme : blueTheme}>
+    <ThemeProvider theme={theme === "dark" ? blueTheme : myOwnTheme}>
       <>
         <GlobalStyles />
         <div>

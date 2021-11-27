@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./ToggleSwitch.scss";
-import { myOwnTheme, blueTheme } from "../../theme";
+import { myOwnTheme, brownTheme } from "../../theme";
 import styled from "styled-components";
 
 export const ToggleDiv = styled.div`
@@ -22,10 +22,10 @@ export const MoonSvg = styled.svg`
 export default class ToggleSwitch extends Component {
   render() {
 
-    let theme = this.props.theme;
-    const isOn = theme === "light" ? false : true;
-    const back = isOn ? blueTheme.body : myOwnTheme.body;
-    const butt = isOn ? myOwnTheme.body : blueTheme.body;
+    // let theme = this.props.theme;
+    const isOn = this.props.theme === "light" ? false : true;
+    const back = isOn ? brownTheme.body : myOwnTheme.body;
+    const butt = isOn ? myOwnTheme.body : brownTheme.body;
 
     return (
       <ToggleDiv>
@@ -54,7 +54,7 @@ export default class ToggleSwitch extends Component {
         <input
           className="react-switch-checkbox"
           checked={isOn}
-          onChange={this.props.oonToggle}
+          onChange={this.props.onToggle}
           id={`react-switch-new`}
           type="checkbox"
 

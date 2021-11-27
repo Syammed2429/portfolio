@@ -123,11 +123,13 @@ export const orangeTheme = {
 
 export const myOwnTheme = {
   body: "#1a202c",
-  text: "white",
+  text: "gray",
   highlight: "#2a202c",
   imageHighlight: "#07beb8",
   compImgHighlight: "#07beb8",
-  minHeight: "100vh"
+  headerColor: "#FF6B3577",
+
+  // minHeight: "100vh"
 
 }
 
