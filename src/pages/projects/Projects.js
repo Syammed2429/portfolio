@@ -5,12 +5,10 @@ import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
-import { Element } from 'react-scroll';
+import { Element } from "react-scroll";
 
 import ProjectsData from "../../shared/opensource/projects.json";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-
-
 
 class Projects extends Component {
   render() {
@@ -18,13 +16,11 @@ class Projects extends Component {
 
     return (
       <Element id="projects" name="projects">
-
         <div className="projects-main">
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
               <div className="projects-heading-div">
                 <div className="projects-heading-img-div">
-
                   <ProjectsImg theme={theme} />
                 </div>
                 <div className="projects-heading-text-div">
@@ -59,16 +55,7 @@ class Projects extends Component {
             theme={theme}
           />
 
-
-
-          <div className="repo-cards-div-main">
-
-          </div>
-
-
-
-
-
+          <div className="repo-cards-div-main"></div>
 
           <TopButton theme={this.props.theme} />
         </div>
@@ -76,6 +63,5 @@ class Projects extends Component {
     );
   }
 }
-
 
 export default Projects;

@@ -3,7 +3,6 @@ import Header from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
 import TopButton from "../../components/topButton/TopButton";
 
-
 class Home extends Component {
   render() {
     // console.log(this.props.theme);

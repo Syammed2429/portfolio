@@ -19,43 +19,49 @@ export default class Main extends Component {
             <Route
               exact
               path="/"
-              render={(props) => <Home {...props} theme={this.props.theme} onToggle={this.props.onToggle} />}
+              render={(props) => (
+                <Home
+                  {...props}
+                  theme={this.props.theme}
+                  onToggle={this.props.onToggle}
+                />
+              )}
             />
             <Route
               path="/home"
-              render={(props) => <Home {...props} theme={this.props.theme} onToggle={this.props.onToggle} />}
+              render={(props) => (
+                <Home
+                  {...props}
+                  theme={this.props.theme}
+                  onToggle={this.props.onToggle}
+                />
+              )}
             />
 
             <Route
               path="*"
               render={(props) => (
-                <Error404 {...props} theme={this.props.theme} onToggle={this.props.onToggle} />
+                <Error404
+                  {...props}
+                  theme={this.props.theme}
+                  onToggle={this.props.onToggle}
+                />
               )}
             />
-
-
           </Switch>
-
         </HashRouter>
-
 
         <Element id="about" name="about">
           <Skills theme={this.props.theme} onToggle={this.props.onToggle} />
         </Element>
         <Element id="projects" name="projects">
           <Projects theme={this.props.theme} onToggle={this.props.onToggle} />
-
-
         </Element>
 
         <Element id="contact" name="contact">
           <Contact theme={this.props.theme} onToggle={this.props.onToggle} />
-
-
         </Element>
-
       </div>
     );
-
   }
 }

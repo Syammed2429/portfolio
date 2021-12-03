@@ -8,8 +8,6 @@ import { Link as ScrollLink } from "react-scroll";
 // import { DarkModeContext } from "../../context/DarkModeContext";
 import ToggleSwitch from "../footer/ToggleSwitch";
 
-
-
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
@@ -60,9 +58,7 @@ class Header extends Component {
                   About
                 </ScrollLink>
               </li>
-              <li>
-
-              </li>
+              <li></li>
               <li>
                 {/* <NavLink
                   to="/experience"
@@ -76,7 +72,6 @@ class Header extends Component {
                 </NavLink> */}
               </li>
               <li>
-
                 <ScrollLink
                   activeClass="active"
                   className="projects"
@@ -107,11 +102,8 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me
-
                 </ScrollLink>
-
               </li>
-
             </ul>
             <ToggleSwitch
               theme={this.props.theme}

@@ -7,7 +7,7 @@ import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
-import { Element } from 'react-scroll';
+import { Element } from "react-scroll";
 
 const ContactData = contactPageData.contactSection;
 const addressSection = contactPageData.addressSection;
@@ -18,7 +18,6 @@ class Contact extends Component {
     const theme = this.props.theme;
     return (
       <Element id="contact" name="contact">
-
         <div className="contact-main">
           <div className="basic-contact">
             <Fade bottom duration={1000} distance="40px">
@@ -78,7 +77,6 @@ class Contact extends Component {
                 </div>
               </div>
             </Fade> */}
-
 
             <Fade bottom duration={1000} distance="40px">
               <div className="address-heading-div">
