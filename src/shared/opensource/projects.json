@@ -8,6 +8,7 @@
       "live": "https://mac-os-desktop-anne-tech.vercel.app/",
       "description": "It's a replicate some of the Mac OS,desktop experience on web! ",
       "isFork": false,
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/mac-os.jpg?raw=true",
       "languages": [
         {
           "name": "HTML",
@@ -31,6 +32,7 @@
       "live": "https://kerrybli.github.io/star-wars-characters-info/",
       "description": "A simple star wars characters information web application, where a user can able to search his favorite star wars characters",
       "isFork": false,
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/star-wars.png?raw=true",
       "languages": [
         {
           "name": "HTML",
@@ -53,6 +55,7 @@
       "git": "https://github.com/kerrybli/Translator",
       "live": "https://anne-translator.netlify.app/",
       "description": "A web application to instantly translate words and phrases between English and other languages.",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/anne-transloator.png?raw=true",
       "isFork": false,
       "languages": [
         {
@@ -76,6 +79,7 @@
       "git": "https://github.com/kerrybli/movieSearchEngine",
       "live": "https://movies-searchengine.netlify.app/",
       "description": "A simple Movie search web application",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/movies.png?raw=true",
       "isFork": false,
       "languages": [
         {
@@ -99,6 +103,7 @@
       "git": "https://github.com/kerrybli/abhibus-clone",
       "live": "https://abhi-bus-clone.vercel.app/",
       "description": "This Project is a clone of abhibus.com is online ticketing company that facilitates online booking of bus and train tickets to travellers all over India.It also provide the hotel booking for the users. With ticket inventory from over 1500 operators and 15000 routes.",
+      "image": "https://raw.githubusercontent.com/kerrybli/portfolio/master/src/assests/images/abhi-bus.webp",
       "isFork": false,
       "languages": [
         {
@@ -122,6 +127,7 @@
       "git": "https://github.com/kerrybli/Groww_Clone",
       "live": "https:/github.com/",
       "description": "This Project is to clone of Groww ,where a user can find details about various companies which are enlisted on national",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/groww.png?raw=true",
       "isFork": false,
       "languages": [
         {
@@ -145,6 +151,7 @@
       "git": "https://github.com/kerrybli/search-meal-using-react",
       "live": "https://meal-search-app.vercel.app/",
       "description": "A simple web application to search your favorite recipes",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/recipe.png?raw=true",
       "isFork": false,
       "languages": [
         {

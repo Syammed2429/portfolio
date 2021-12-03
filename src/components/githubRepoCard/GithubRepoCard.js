@@ -37,11 +37,7 @@ export default function GithubRepoCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
-          <img
-            className="my-5 col-4 img-fluid"
-            src="https://picsum.photos/200"
-            alt="name"
-          />
+          <img className="my-5 img-fluid" src={repo.image} alt="name" />
           <p
             className="repo-description text-light"
             style={{ color: theme.text }}
@@ -71,8 +67,6 @@ export default function GithubRepoCard({ repo, theme }) {
                   <div className="">GitHub</div>
                 </div>
               </a>
-
-              {/* Created on {repo.createdAt.split("T")[0]} */}
             </p>
             <a
               className="text-reset "
@@ -87,7 +81,7 @@ export default function GithubRepoCard({ repo, theme }) {
                 aria-label="broadcast"
               ></i>
 
-              <div className="mx-5">Live</div>
+              <div className="mx-5 ">Live</div>
             </a>
 
             <ProjectLanguages
