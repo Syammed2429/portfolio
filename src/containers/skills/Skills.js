@@ -9,9 +9,13 @@ export default function Skills(props) {
     <div className="main" id="skills">
       <div className="skills-header-div">
         <Fade bottom duration={2000} distance="20px">
-          <h1 className="skills-header" style={{ color: theme.text }}>
-            What I Do?
-          </h1>
+          <h4 className="skills-header" style={{ color: theme.text }}>
+            What I Do ?
+          </h4>
+          <div className="text-center h3">
+            I build Full-Stack Web Applications 💻
+          </div>
+          {/* <p>A passionate Full Stack Web Developer 🚀 having an experience of building web applications with JavaScript / ReactJS / NodeJS / ExpressJS and some other cool libraries and frameworks.</p> */}
         </Fade>
       </div>
       <SkillSection theme={theme} />

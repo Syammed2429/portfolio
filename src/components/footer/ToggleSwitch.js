@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./ToggleSwitch.scss";
-import { myOwnTheme, brownTheme } from "../../theme";
+import { myOwnTheme, blueTheme } from "../../theme";
 import styled from "styled-components";
 
 export const ToggleDiv = styled.div`
@@ -21,11 +21,10 @@ export const MoonSvg = styled.svg`
 
 export default class ToggleSwitch extends Component {
   render() {
-
     // let theme = this.props.theme;
-    const isOn = this.props.theme === "light" ? false : true;
-    const back = isOn ? brownTheme.body : myOwnTheme.body;
-    const butt = isOn ? myOwnTheme.body : brownTheme.body;
+    const isOn = this.props.theme === "dark" ? false : true;
+    const back = isOn ? blueTheme.body : myOwnTheme.body;
+    const butt = isOn ? myOwnTheme.body : blueTheme.body;
 
     return (
       <ToggleDiv>
@@ -39,7 +38,6 @@ export default class ToggleSwitch extends Component {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-
         >
           <circle cx="12" cy="12" r="5" />
           <line x1="12" y1="1" x2="12" y2="3" />
@@ -57,18 +55,15 @@ export default class ToggleSwitch extends Component {
           onChange={this.props.onToggle}
           id={`react-switch-new`}
           type="checkbox"
-
         />
         <label
           style={{ background: back }}
           className="react-switch-label"
           htmlFor={`react-switch-new`}
         >
-
           <span
             style={{ background: butt }}
             className={`react-switch-button`}
-
           />
           {console.log("Hello form toggle")}
         </label>
@@ -82,8 +77,6 @@ export default class ToggleSwitch extends Component {
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-
-
         >
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
         </MoonSvg>

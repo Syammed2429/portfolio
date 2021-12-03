@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "masterPortfolio",
+  "name": "dada-khalandar-portfolio",
   "homepage": ".",
   "version": "0.1.0",
   "scripts": {
@@ -16,6 +16,7 @@
     "apollo-boost": "^0.4.4",
     "baseui": "^9.65.3",
     "bootstrap": "^4.4.1",
+    "bootstrap-icons": "^1.7.1",
     "chart.js": "^2.9.3",
     "fs": "0.0.1-security",
     "gh-pages": "^2.1.1",

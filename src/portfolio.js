@@ -1,10 +1,3 @@
-
-// import { FaBeer } from 'react-icons/fa';
-
-
-
-
-
 //SEO Related settings
 const seo = {
   title: "Dada's Portfolio",
@@ -25,13 +18,11 @@ const greeting = {
   subTitle:
     "A passionate Full Stack Web Developer 🚀 having an experience of building web applications with JavaScript / ReactJS / NodeJS / ExpressJS and some other cool libraries and frameworks.",
 
-  resumeLink:
-    "https://drive.google.com/drive/search?q=fw11_303",
+  resumeLink: "https://drive.google.com/drive/search?q=fw11_303",
   portfolio_repository: "https://github.com/kerrybli/portfolio",
 };
 
 const socialMediaLinks = [
-
   {
     name: "Github",
     link: "https://github.com/kerrybli",
@@ -48,7 +39,7 @@ const socialMediaLinks = [
   //   name: "YouTube",
   //   link: "https://www.youtube.com/c/codingwithmrm",
   //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", 
+  //   backgroundColor: "#FF0000",
   // },
   {
     name: "Gmail",
@@ -78,13 +69,12 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-
     {
-      title: "Full Stack Development",
+      title: "Front End Tools",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React & React-Redux",
-        "⚡ Creating backend application  in NodeJs,&  Express ",
+        "⚡ Building functionality front end websites",
+        "⚡ Building reusable website components",
       ],
       softwareSkills: [
         {
@@ -110,20 +100,7 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "green",
-          },
-        },
-        {
-          skillName: "Express Js",
-          fontAwesomeClassname: "simple-icons:express",
-          style: {
-            color: "grey",
-          },
-        },
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -132,10 +109,10 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#339933",
+            color: "#2f74c0",
           },
         },
         {
@@ -145,27 +122,7 @@ const skills = {
             color: "purple",
           },
         },
-        {
-          skillName: "HeroKu",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#79589f",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#79589f",
-          },
-        },
-        {
-          skillName: "GitHub",
-          fontAwesomeClassname: "simple-icons:github",
-          style: {
-            color: "#79589f",
-          },
-        },
+
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
@@ -180,23 +137,65 @@ const skills = {
             color: "#2C8EBB",
           },
         },
-
-
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Back End Tools ",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Hosting and maintaining the websites on various deployment platforms",
+        "⚡ Storing and managing the data on MongoDB",
+        "⚡ Creating backend application  in NodeJs,&  Express ",
       ],
       softwareSkills: [
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "ExpressJs",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "silver",
+          },
+        },
+        {
+          skillName: "Railway",
+          fontAwesomeClassname: "simple-icons:railway",
+          style: {
+            color: "#ffffff",
+          },
+        },
+        {
+          skillName: "HeroKu",
+          fontAwesomeClassname: "simple-icons:heroku",
+          style: {
+            color: "#79589f",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#e84d31",
+          },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "dark",
+          },
+        },
         {
           skillName: "Netlify",
           fontAwesomeClassname: "simple-icons:netlify",
           style: {
-            color: "#4285F4",
+            color: "#499ebe",
           },
         },
         {
@@ -206,11 +205,12 @@ const skills = {
             color: "#FF9900",
           },
         },
+
         {
           skillName: "Vercel",
           fontAwesomeClassname: "simple-icons:vercel",
           style: {
-            color: "#0089D6",
+            color: "dark",
           },
         },
 
@@ -228,7 +228,6 @@ const skills = {
             color: "#1488C6",
           },
         },
-
       ],
     },
     {
@@ -236,36 +235,29 @@ const skills = {
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
         "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Creating the responsive web application's for various devices",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Material UI",
+          fontAwesomeClassname: "simple-icons:materialui",
           style: {
-            color: "#FF2BC2",
+            color: "#007fff",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "BootStrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
-            color: "#F24E1E",
+            color: "#7952b3",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Chakra Ui",
+          fontAwesomeClassname: "simple-icons:chakraui",
           style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
+            color: "#44c8c1",
           },
         },
       ],
@@ -273,16 +265,13 @@ const skills = {
   ],
 };
 
-
 // Projects Page
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full-stack web applications projects and deploy them to various hosting sites using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
-
-
 
 // Contact Page
 const contactPageData = {
@@ -295,8 +284,7 @@ const contactPageData = {
 
   addressSection: {
     title: "Address",
-    subtitle:
-      "Guntakal, Dist.-Anantapur, Andhra Pradesh - 515801",
+    subtitle: "Guntakal, Dist.-Anantapur, Andhra Pradesh - 515801",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://bit.ly/3HYUMyH",
   },
