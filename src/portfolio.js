@@ -6,7 +6,7 @@ const seo = {
   og: {
     title: "Dada Khalandar Portfolio",
     type: "website",
-    url: "#",
+    url: "https://dada-khalandar-portfolio.vercel.app/",
   },
 };
 
@@ -14,7 +14,7 @@ const seo = {
 const greeting = {
   title: "Dada Khalandar",
   logo_name: "Dada Khalandar",
-  nickname: "Muhd Khal Boy",
+  // nickname: "Muhd Khal Boy",
   subTitle:
     "A passionate Full Stack Web Developer 🚀 having an experience of building web applications with JavaScript / ReactJS / NodeJS / ExpressJS and some other cool libraries and frameworks.",
 
