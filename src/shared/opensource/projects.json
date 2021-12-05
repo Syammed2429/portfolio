@@ -78,7 +78,7 @@
       "createdAt": "2020-06-19T14:24:55Z",
       "git": "https://github.com/kerrybli/movieSearchEngine",
       "live": "https://movies-searchengine.netlify.app/",
-      "description": "A simple Movie search web application",
+      "description": "A web application to instantly search your favorite movies and web series and get know ratings and release year of it.",
       "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/movies.png?raw=true",
       "isFork": false,
       "languages": [
