@@ -55,7 +55,7 @@
       "git": "https://github.com/kerrybli/Translator",
       "live": "https://anne-translator.vercel.app/",
       "description": "A web application to instantly translate words and phrases between English and other languages.",
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/anne-transloator.png?raw=true",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/translaot.png?raw=true",
       "isFork": false,
       "languages": [
         {
@@ -125,7 +125,7 @@
       "name": "Groww Clone",
       "createdAt": "2019-08-13T13:13:00Z",
       "git": "https://github.com/kerrybli/Groww_Clone",
-      "live": "https:/github.com/",
+      "live": "https://growww-clone.netlify.app/",
       "description": "This Project is to clone of Groww ,where a user can find details about various companies which are enlisted on national",
       "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/groww.png?raw=true",
       "isFork": false,
