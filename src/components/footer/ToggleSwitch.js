@@ -65,7 +65,6 @@ export default class ToggleSwitch extends Component {
             style={{ background: butt }}
             className={`react-switch-button`}
           />
-          {console.log("Hello form toggle")}
         </label>
         <MoonSvg
           xmlns="http://www.w3.org/2000/svg"

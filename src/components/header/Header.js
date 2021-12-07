@@ -22,7 +22,6 @@ class Header extends Component {
   render() {
     const theme = this.props.theme;
     // const { Styles, modeState, handleThemeChange } = React.useContext(DarkModeContext)
-    console.log(theme);
 
     return (
       <Fade top duration={1000} distance="20px">

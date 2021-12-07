@@ -10,7 +10,6 @@ import Skills from "./skills/Skills";
 export default class Main extends Component {
   render() {
     const theme = this.props.theme;
-    console.log(theme);
 
     return (
       <div>
