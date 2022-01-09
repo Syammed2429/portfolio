@@ -104,10 +104,10 @@ class Header extends Component {
                 </ScrollLink>
               </li>
             </ul>
-            <ToggleSwitch
+            {/* <ToggleSwitch
               theme={this.props.theme}
               onToggle={this.props.onToggle}
-            />
+            /> */}
           </header>
         </div>
       </Fade>
