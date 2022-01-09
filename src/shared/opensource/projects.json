@@ -200,21 +200,13 @@
       "name": "Image Sharing Social Media site",
       "git": "https://github.com/kerrybli/image-sharing-social-media-app-client",
       "live": "https://ninie-image-gallery.vercel.app/",
-      "description": "A website to share your image with others and download the images too ",
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/ninie.png?raw=true",
+      "description": "A realtime image sharing social media website with a registered users of 100+,share your image with others and download the images too ",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/ninie%20gallary.png?raw=true",
       "isFork": false,
       "languages": [
         {
           "name": "React",
           "iconifyClass": "logos-react"
-        },
-        {
-          "name": "Tailwind",
-          "iconifyClass": "logos-tailwindcss"
-        },
-        {
-          "name": "Sanity",
-          "iconifyClass": "logos-sanity"
         }
       ]
     }

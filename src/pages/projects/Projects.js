@@ -57,7 +57,7 @@ class Projects extends Component {
 
           <div className="repo-cards-div-main"></div>
 
-          <TopButton theme={this.props.theme} />
+          {/* <TopButton theme={this.props.theme} /> */}
         </div>
       </Element>
     );
