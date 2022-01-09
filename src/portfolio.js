@@ -116,13 +116,6 @@ const skills = {
             color: "#2f74c0",
           },
         },
-        {
-          skillName: "BootStrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            color: "purple",
-          },
-        },
 
         {
           skillName: "NPM",
@@ -199,13 +192,13 @@ const skills = {
             color: "#499ebe",
           },
         },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
+        // {
+        //   skillName: "AWS",
+        //   fontAwesomeClassname: "simple-icons:amazonaws",
+        //   style: {
+        //     color: "#FF9900",
+        //   },
+        // },
 
         {
           skillName: "Vercel",

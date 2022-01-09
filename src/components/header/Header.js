@@ -5,8 +5,8 @@ import { NavLink, Link } from "react-router-dom";
 import { greeting } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 import { Link as ScrollLink } from "react-scroll";
-// import { DarkModeContext } from "../../context/DarkModeContext";
-// import ToggleSwitch from "../footer/ToggleSwitch";
+import { DarkModeContext } from "../../context/DarkModeContext";
+import ToggleSwitch from "../footer/ToggleSwitch";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -21,11 +21,9 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    // const { Styles, modeState, handleThemeChange } = React.useContext(DarkModeContext)
 
     return (
       <Fade top duration={1000} distance="20px">
-        {/* <ToggleSwitch theme={this.props.theme} onToggle={this.props.onToggle} /> */}
         <SeoHeader />
         <div>
           <header className="header">

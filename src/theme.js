@@ -131,14 +131,14 @@ export const myOwnTheme = {
 
 export const lightTheme = {
   body: "#e9edf2dd",
-  text: "#0e1724",
+  text: "#c8baba",
   toggleBorder: "#0e1724",
   gradient: "linear-gradient(#39598A, #79D7ED)",
 };
 
 export const darkTheme = {
   body: "#0e1724dd",
-  text: "#e9edf2",
+  text: "#c8baba",
   toggleBorder: "#e9edf2",
   gradient: "linear-gradient(#091236, #1E215D)",
 };
