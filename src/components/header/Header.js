@@ -6,7 +6,7 @@ import { greeting } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 import { Link as ScrollLink } from "react-scroll";
 // import { DarkModeContext } from "../../context/DarkModeContext";
-import ToggleSwitch from "../footer/ToggleSwitch";
+// import ToggleSwitch from "../footer/ToggleSwitch";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
