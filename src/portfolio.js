@@ -232,7 +232,7 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "UI Frameworks",
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
@@ -257,6 +257,13 @@ const skills = {
         {
           skillName: "Chakra Ui",
           fontAwesomeClassname: "simple-icons:chakraui",
+          style: {
+            color: "#44c8c1",
+          },
+        },
+        {
+          skillName: "Tailwind",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
           style: {
             color: "#44c8c1",
           },
