@@ -10,13 +10,10 @@ const About = () => {
         </div>
         <div className="col ">
           <p className="align-left">
-            A passionate Full Stack Web Developer{" "}
-            <span role="img" aria-label="rocket">
-              🚀
-            </span>{" "}
-            having an experience of building web applications with JavaScript /
-            ReactJS / NodeJS / ExpressJS and some other cool libraries and
-            frameworks.
+            I'm a passionate full stack web developer from india. My passion for
+            software lies with dreaming up ideas and making them come true with
+            elegant interfaces. I take great care in the experience,
+            architecture, and code quality of the things I build.
           </p>
         </div>
       </div>
