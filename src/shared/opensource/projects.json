@@ -2,174 +2,21 @@
   "data": [
     {
       "id": 1,
-      "name": "MacOS - Desktop",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "git": "https://github.com/kerrybli/mac-os-desktop",
-      "live": "https://mac-os-desktop-anne-tech.vercel.app/",
-      "description": "It's a replicate some of the Mac OS,desktop experience on web! ",
+      "name": "Image Sharing Social Media site",
+      "git": "https://github.com/kerrybli/image-sharing-social-media-app-client",
+      "live": "https://ninie-image-gallery.vercel.app/",
+      "description": "A image sharing social media website with a registered users of 100+ growing..",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/ninie%20gallary.png?raw=true",
       "isFork": false,
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/mac-os.jpg?raw=true",
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "React",
+          "iconifyClass": "logos-react"
         }
       ]
     },
     {
       "id": 2,
-      "name": "Star Wars",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "git": "https://github.com/kerrybli/star-wars-characters-info",
-      "live": "https://star-wars-characters-info.vercel.app/",
-      "description": "A simple star wars characters information web application, where a user can able to search his favorite star wars characters",
-      "isFork": false,
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/star-wars.png?raw=true",
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Anne Translator",
-      "createdAt": "2020-06-03T11:53:55Z",
-      "git": "https://github.com/kerrybli/Translator",
-      "live": "https://anne-translator.vercel.app/",
-      "description": "A web application to instantly translate words and phrases between English and other languages.",
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/translaot.png?raw=true",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Movies Search Engine",
-      "createdAt": "2020-06-19T14:24:55Z",
-      "git": "https://github.com/kerrybli/movieSearchEngine",
-      "live": "https://movies-searchengine.netlify.app/",
-      "description": "A web application to instantly search your favorite movies and web series and get know ratings and release year of it.",
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/movies.png?raw=true",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Abhi Bus Clone",
-      "createdAt": "2018-11-03T05:00:56Z",
-      "git": "https://github.com/kerrybli/abhibus-clone",
-      "live": "https://abhi-bus-clone.vercel.app/",
-      "description": "This Project is a clone of abhibus.com is online ticketing company that facilitates online booking of bus and train tickets to travellers all over India.It also provide the hotel booking for the users. With ticket inventory from over 1500 operators and 15000 routes.",
-      "image": "https://raw.githubusercontent.com/kerrybli/portfolio/master/src/assests/images/abhi-bus.webp",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "BootStrap",
-          "iconifyClass": "logos-bootstrap"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Groww Clone",
-      "createdAt": "2019-08-13T13:13:00Z",
-      "git": "https://github.com/kerrybli/Groww_Clone",
-      "live": "https://growww-clone.netlify.app/",
-      "description": "This Project is to clone of Groww ,where a user can find details about various companies which are enlisted on national",
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/groww.png?raw=true",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Search Recipe",
-      "createdAt": "2019-04-18T17:25:51Z",
-      "git": "https://github.com/kerrybli/search-meal-using-react",
-      "live": "https://meal-search-app.vercel.app/",
-      "description": "A simple web application to search your favorite recipes",
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/recipe.png?raw=true",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "BootStrap",
-          "iconifyClass": "logos-bootstrap"
-        }
-      ]
-    },
-    {
-      "id": 8,
       "name": "N.I.N.I Social Media",
       "git": "https://github.com/kerrybli/ninie-socialmedia-app",
       "live": "https://ninie.vercel.app/",
@@ -196,17 +43,170 @@
       ]
     },
     {
-      "id": 9,
-      "name": "Image Sharing Social Media site",
-      "git": "https://github.com/kerrybli/image-sharing-social-media-app-client",
-      "live": "https://ninie-image-gallery.vercel.app/",
-      "description": "A image sharing social media website with a registered users of 100+ growing..",
-      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/ninie%20gallary.png?raw=true",
+      "id": 3,
+      "name": "MacOS - Desktop",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "git": "https://github.com/kerrybli/mac-os-desktop",
+      "live": "https://mac-os-desktop-anne-tech.vercel.app/",
+      "description": "It's a replicate some of the Mac OS,desktop experience on web! ",
+      "isFork": false,
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/mac-os.jpg?raw=true",
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Star Wars",
+      "createdAt": "2020-03-06T16:26:54Z",
+      "git": "https://github.com/kerrybli/star-wars-characters-info",
+      "live": "https://star-wars-characters-info.vercel.app/",
+      "description": "A simple star wars characters information web application, where a user can able to search his favorite star wars characters",
+      "isFork": false,
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/star-wars.png?raw=true",
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Anne Translator",
+      "createdAt": "2020-06-03T11:53:55Z",
+      "git": "https://github.com/kerrybli/Translator",
+      "live": "https://anne-translator.vercel.app/",
+      "description": "A web application to instantly translate words and phrases between English and other languages.",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/translaot.png?raw=true",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Movies Search Engine",
+      "createdAt": "2020-06-19T14:24:55Z",
+      "git": "https://github.com/kerrybli/movieSearchEngine",
+      "live": "https://movies-searchengine.netlify.app/",
+      "description": "A web application to instantly search your favorite movies and web series and get know ratings and release year of it.",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/movies.png?raw=true",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Abhi Bus Clone",
+      "createdAt": "2018-11-03T05:00:56Z",
+      "git": "https://github.com/kerrybli/abhibus-clone",
+      "live": "https://abhi-bus-clone.vercel.app/",
+      "description": "This Project is a clone of abhibus.com is online ticketing company that facilitates online booking of bus and train tickets to travellers all over India.It also provide the hotel booking for the users. With ticket inventory from over 1500 operators and 15000 routes.",
+      "image": "https://raw.githubusercontent.com/kerrybli/portfolio/master/src/assests/images/abhi-bus.webp",
       "isFork": false,
       "languages": [
         {
           "name": "React",
           "iconifyClass": "logos-react"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "BootStrap",
+          "iconifyClass": "logos-bootstrap"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Groww Clone",
+      "createdAt": "2019-08-13T13:13:00Z",
+      "git": "https://github.com/kerrybli/Groww_Clone",
+      "live": "https://growww-clone.netlify.app/",
+      "description": "This Project is to clone of Groww ,where a user can find details about various companies which are enlisted on national",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/groww.png?raw=true",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Search Recipe",
+      "createdAt": "2019-04-18T17:25:51Z",
+      "git": "https://github.com/kerrybli/search-meal-using-react",
+      "live": "https://meal-search-app.vercel.app/",
+      "description": "A simple web application to search your favorite recipes",
+      "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/recipe.png?raw=true",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "BootStrap",
+          "iconifyClass": "logos-bootstrap"
         }
       ]
     }
