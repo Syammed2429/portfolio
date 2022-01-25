@@ -19,7 +19,7 @@ const greeting = {
     "A passionate Full Stack Web Developer 🚀 having an experience of building web applications with JavaScript / ReactJS / NodeJS / ExpressJS and some other cool libraries and frameworks.",
 
   resumeLink:
-    "https://drive.google.com/file/d/1OQsmSz8GhBZQ-g5y7hpOqUxvz3LBb5Wz/view?usp=sharing",
+    "https://drive.google.com/file/d/1EBsQ-0AZSbIhfKl1TooWRZ-Py2rp2LRq/view?usp=drivesdk",
   portfolio_repository: "https://github.com/kerrybli/portfolio",
 };
 
