@@ -19,7 +19,7 @@
       "id": 2,
       "name": "N.I.N.I Social Media",
       "git": "https://github.com/kerrybli/ninie-socialmedia-app",
-      "live": "https://ninie.vercel.app/",
+      "live": "https://ninie-kerrybli.vercel.app/",
       "description": "It's a replica of social media sites with a registered of 80+ users",
       "image": "https://github.com/kerrybli/portfolio/blob/master/src/assests/images/ninie.png?raw=true",
       "isFork": false,
